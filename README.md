@@ -10,7 +10,7 @@ npm install<br />
 npm install -g json-server<br />
 
 ## Usage
-json-server --watch todo.json --port 3000<br />
+json-server --watch todos.json --port 3000<br />
 npm start<br />
 npm run-script build<br />
 
