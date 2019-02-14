@@ -1,10 +1,17 @@
 {
   "todos": [
     {
-      "id": "4f0b4eb4-7e04-464b-8abe-9e758884bcb1",
-      "date": "14/2/2019 18:35:41",
-      "title": "My first todo item",
-      "description": "Lorem ipsum ar honoris verecundiam",
+      "id": "1c4d7a75-dfb4-4b89-b082-faad8aaefb64",
+      "date": "14/2/2019 19:08:02",
+      "title": "testing",
+      "description": "Unit testing with Jest",
+      "status": false
+    },
+    {
+      "id": "ca43cbd8-ea41-4658-a980-4afac150ce5a",
+      "date": "14/2/2019 19:09:12",
+      "title": "Production server",
+      "description": "Create .env file for Dev and Prod server variables",
       "status": false
     }
   ]
