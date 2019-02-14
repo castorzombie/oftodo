@@ -1,0 +1,51 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["airbnb", "prettier", "prettier/react"],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "mocha": true,
+        "es6": true,
+        "jest": true
+    },
+    "rules": {
+        "indent": "off",
+        "space-before-function-paren": "off",
+        "react/prefer-stateless-function": "warn",
+        "react/jsx-one-expression-per-line": "off",
+        "react/no-access-state-in-setstate": "off",
+        "react/destructuring-assignment": "never",
+        "react/no-array-index-key": "off",
+        "import/no-extraneous-dependencies": [
+            "error",
+            { "devDependencies": true }
+        ],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "linebreak-style": "off",
+        "global-require": "off",
+        "semi": "warn",
+        "arrow-body-style": "off",
+        "no-return-assign": "off",
+        "no-unused-expressions": "off",
+        "no-param-reassign": "off",
+        "no-script-url": "warn",
+        "no-self-assign": "warn",
+        "no-self-compare": "warn",
+        "no-multiple-empty-lines": ["warn", { "max": 1 }],
+        "no-underscore-dangle": [
+            2,
+            { "allow": ["__REDUX_DEVTOOLS_EXTENSION__"] }
+        ],
+        "react/prop-types": [
+            "enabled",
+            { "ignore": "ignore", "customValidators": "customValidator" }
+        ]
+    }
+}

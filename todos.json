@@ -1,0 +1,11 @@
+{
+  "todos": [
+    {
+      "id": "4f0b4eb4-7e04-464b-8abe-9e758884bcb1",
+      "date": "14/2/2019 18:35:41",
+      "title": "My first todo item",
+      "description": "Lorem ipsum ar honoris verecundiam",
+      "status": false
+    }
+  ]
+}
